@@ -85,13 +85,25 @@
 		<h2>Five</h2>
 		<p>Topping liquorice pie donut biscuit cheesecake dessert candy canes gummies. Liquorice cake ice cream dragée. Liquorice caramels danish marshmallow dragée sweet pastry. Jelly beans oat cake caramels pie cheesecake bonbon. Cookie jelly dragée. Liquorice cake halvah marshmallow icing cheesecake cupcake. Chupa chups bonbon sesame snaps tart dessert. Toffee candy canes jujubes. Muffin dessert chocolate. Jujubes muffin cake wafer candy canes cookie sugar plum icing. Macaroon marshmallow tiramisu oat cake pastry. Cookie jujubes powder cake. Lemon drops danish jelly-o chocolate bar. Pastry cake carrot cake brownie liquorice.</p>
 
-		<form action=”#”>
-			<label for="fname">First name:</label><br>
-			<input type="text" id="fname" name="fname"><br>
-			<label for="fname">Middle name:</label><br>
-			<input type="text" id="mname" name="mname"><br>
-			<label for="lname">Last name:</label><br>
-			<input type="text" id="lname" name="lname">
+		<form action="#">
+			<div class="mb-3">
+			    <label for="exampleInputName1" class="form-label">Name</label>
+			    <input type="text" class="form-control" id="exampleInputName1">
+			</div>
+			<div class="mb-3">
+			    <label for="exampleInputEmail1" class="form-label">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+			</div>
+			<div class="mb-3">
+			    <label for="exampleInputPassword1" class="form-label">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1">
+			</div>
+			<div class="mb-3 form-check">
+			    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+			    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
